@@ -1,29 +1,30 @@
 #include <iostream>
 #include <string>
 #include "trie.hpp"
+#include "contributors.hpp"
 using namespace std;
-//Insert Your namein this array withou any spaces
-string trie_names[] = {"paraspatle", "deeppanchani"};
+string trie_names[100] = {};
 
 int main()
 {
- // creating an object of class trie_node for root
+ int size = 0;
+ //---------- Contributors Make function calls here and increment size before calling it---------------------------
+ size++;
+ paraspatle(trie_names, size);
+ //-------------------------------------------------------------------------------
+
  trie_node *root = new trie_node();
 
- //finding the size of array
- int size = sizeof(trie_names) / sizeof(trie_names[0]);
  for (int i = 0; i < size; i++)
  {
   root->insert(trie_names[i]);
  }
-
- //searching name of user
  string name;
  cout << "Enter Your Name to search it in the trie : ";
  cin >> name;
  if (root->search(name))
  {
-  cout << "Your name was found in the trie" << endl;
+  cout << "Yaay! Your name was found in the trie ! Welcome to Amega, We hope you have a fun learning experience" << endl;
  }
  else
  {
