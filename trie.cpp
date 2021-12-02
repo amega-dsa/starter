@@ -3,7 +3,7 @@
 #include "trie.hpp"
 using namespace std;
 //Insert Your namein this array withou any spaces
-string trie_names[] = {"paraspatle", "deeppanchani"};
+string trie_names[] = {"paraspatle", "deeppanchani", "sample"};
 
 int main()
 {
