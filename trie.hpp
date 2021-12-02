@@ -1,5 +1,5 @@
 
-// node structure
+// node structureclass trie_node
 class trie_node
 {
  trie_node *next[26];
@@ -8,7 +8,13 @@ class trie_node
 public:
  trie_node()
  {
-  is_word = 0;
-  next = new trie_node[26];
+  this->is_word = 0;
+  for (int i = 0; i < 26; i++)
+  {
+   this->next[i] = NULL;
+  }
  }
+
+ void insert(trie_node root, string name);
+ bool search(trie_node root, string name);
 };
