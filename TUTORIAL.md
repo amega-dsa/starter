@@ -1,6 +1,6 @@
-## Making your first contirbution at Konoha - Tutorial 🤖
+## Making your first contirbution at Amega - Tutorial 🤖
 
-Before going through this tutorial please make sure that you have gone through the [Contributing]() markdown file.
+Before going through this tutorial please make sure that you have gone through the [Contributing](https://github.com/paraspatle-jpg/starter/blob/main/CONTRIBUTING.md) markdown file.
 
 ## Now that you have switched to your branch, follow the below steps -
 
@@ -14,4 +14,9 @@ void narutouzumaki(string arr[], int size)
 }
 ```
 
-2.
+2. Make the function call of the function you made above in the main function and increment the size. Copy and paste the code below in main function.
+
+```
+size++;
+narutouzumaki(trie_names,size);
+```
