@@ -1,6 +1,6 @@
-## Making your first contirbution at Konoha - Tutorial 🤖
+## Making your first contirbution at Amega - Tutorial 🤖
 
-Before going through this tutorial please make sure that you have gone through the [Contributing]() markdown file.
+Before going through this tutorial please make sure that you have gone through the [Contributing](https://github.com/paraspatle-jpg/starter/blob/main/CONTRIBUTING.md) markdown file.
 
 ## Now that you have switched to your branch, follow the below steps -
 
