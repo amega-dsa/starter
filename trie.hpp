@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#define CHAR_SIZE 128
+#define CHAR_SIZE 26
 // node structure
 class trie_node
 {
@@ -28,16 +28,34 @@ void trie_node::insert(string name)
  for (int i = 0; i < name.length(); i++)
  {
   //if character of string is nt found then name one
-  if (temp->next[name[i]] == NULL)
+  if (temp->next[(int)name[i] - (int)'a'] == NULL)
   {
-   temp->next[name[i]] = new trie_node();
+   temp->next[(int)name[i] - (int)'a'] = new trie_node();
   }
   //traverse to the next node
-  temp = temp->next[name[i]];
+  temp = temp->next[(int)name[i] - (int)'a'];
  }
  // incrementing is_word to indicate that a word ends here
  temp->is_word++;
 }
+
 bool trie_node::search(string name)
 {
+ int level;
+ int len = name.length();
+ int ind;
+
+ trie_node *temp = this;
+
+ for (level = 0; level < len; level++)
+ {
+  ind = (int)name[level] - (int)'a';
+  if (!temp->next[ind])
+  {
+   return false;
+  }
+  temp = temp->next[ind];
+ }
+
+ return (temp->is_word);
 }
