@@ -1,4 +1,4 @@
-## Making your first contirbution at Amega - Tutorial 🤖
+## Making your first contribution at Amega - Tutorial 🤖
 
 Before going through this tutorial please make sure that you have gone through the [Contributing](https://github.com/amega-dsa/starter/blob/main/CONTRIBUTING.md) markdown file.
 
