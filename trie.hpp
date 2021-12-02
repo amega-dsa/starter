@@ -23,6 +23,19 @@ public:
 
 void trie_node::insert(string name)
 {
+ trie_node *temp = this; //storing root node
+ for (int i = 0; i < name.length(); i++)
+ {
+  //if character of string is nt found then name one
+  if (temp->next[name[i]] == NULL)
+  {
+   temp->next[name[i]] = new trie_node();
+  }
+  //traverse to the next node
+  temp = temp->next[name[i]];
+ }
+ // incrementing is_word to indicate that a word ends here
+ temp->is_word++;
 }
 bool trie_node::search(string name)
 {
