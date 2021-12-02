@@ -14,4 +14,9 @@ void narutouzumaki(string arr[], int size)
 }
 ```
 
-2.
+2. Make the function call of the function you made above in the main function and increment the size. Copy and paste the code below in main function.
+
+```
+size++;
+narutouzumaki(trie_names,size);
+```
