@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 #define CHAR_SIZE 128
 // node structure
 class trie_node
