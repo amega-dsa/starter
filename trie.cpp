@@ -11,6 +11,8 @@ int main()
  //---------- Contributors Make function calls here and increment size before calling it---------------------------
  size++;
  paraspatle(trie_names, size);
+ size++;
+ satyamshukla(trie_names, size);
  //-------------------------------------------------------------------------------
 
  trie_node *root = new trie_node();
