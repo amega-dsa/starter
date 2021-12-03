@@ -16,7 +16,7 @@ int main()
     size++;
     prathameshpatil(trie_names, size);
     size++;
-    ShubhAgarwal(trie_names, size);
+    shubhagarwal(trie_names, size);
     //-------------------------------------------------------------------------------
 
     trie_node *root = new trie_node();
