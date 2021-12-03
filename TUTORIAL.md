@@ -14,7 +14,7 @@ void narutouzumaki(string arr[], int size)
 }
 ```
 
-2. Make the function call of the function you made above in the main function and increment the size. Copy and paste the code below in main function.
+2. Make the function call of the function you made above in the main function and increment the size. Copy and paste the code below in main function of file tries.cpp.
 
 ```
 size++;
