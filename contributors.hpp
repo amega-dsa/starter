@@ -7,3 +7,8 @@ void paraspatle(string arr[], int size)
  string name = "paraspatle";
  arr[size - 1] = name;
 }
+void satyamshukla(string arr[], int size)
+{
+    string name = "satyamshukla";
+    arr[size-1] = name;
+}
