@@ -3,8 +3,8 @@
 If you are just beginning with open source then let's make your first contribution in this repository !
 
 
-1. [`Contributing`](https://github.com/paraspatle-jpg/starter/blob/main/CONTRIBUTING.md)
-2. [`Tutorial`](https://github.com/paraspatle-jpg/starter/blob/main/TUTORIAL.md)
+1. [`Contributing`](https://github.com/amega-dsa/starter/blob/main/CONTRIBUTING.md)
+2. [`Tutorial`](https://github.com/amega-dsa/starter/blob/main/TUTORIAL.md)
 
 
 ### :page_with_curl: Preface

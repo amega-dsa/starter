@@ -27,7 +27,7 @@ git clone git@github.com:<your_github_username>/starter.git # please clone accor
 git checkout -b <branch-name>
 ```
 
-### 4. Follow this [`tutorial`](https://github.com/paraspatle-jpg/starter/blob/main/TUTORIAL.md) to make some changes in the cloned repository.
+### 4. Follow this [`tutorial`](https://github.com/amega-dsa/starter/blob/main/TUTORIAL.md) to make some changes in the cloned repository.
 
 
 ### 5. Add your changes once the tutorial is done
