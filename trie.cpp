@@ -23,6 +23,8 @@ int main()
     bhaveshchaudhari(trie_names, size);
     size++;
     tanmayeegosavi(trie_names,size);
+    size++;
+    pallavidhakne(trie_names,size);
     //-------------------------------------------------------------------------------
 
     trie_node *root = new trie_node();
