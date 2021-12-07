@@ -37,3 +37,9 @@ void tanmayeegosavi(string arr[],int size)
     string name="tanmayeegosavi";
     arr[size-1]=name;
 }
+void pallavidhakne(string arr[],int size)
+{
+    string name="pallavidhakne";
+    arr[size-1]=name;
+    
+}
