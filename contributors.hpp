@@ -53,3 +53,8 @@ void avanibaheti(string arr[], int size)
     string name = "avanibaheti";
     arr[size - 1] = name;
 }
+void amittiwari(string arr[], int size)
+{
+    string name = "amittiwari";
+    arr[size - 1] = name;
+}

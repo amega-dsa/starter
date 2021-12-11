@@ -29,6 +29,8 @@ int main()
     manaskapoor(trie_names, size);
     size++;
     avanibaheti(trie_names, size);
+    size++;
+    amittiwari(trie_names,size);
     //-------------------------------------------------------------------------------
 
     trie_node *root = new trie_node();
